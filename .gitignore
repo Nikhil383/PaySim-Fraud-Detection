@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & large artifacts
+data/raw/*
+!data/raw/.gitkeep
+dataset/*
+!dataset/.gitkeep
+models/*.joblib
+mlruns/
+.mlflow/
+*.db
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.eslintcache
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Environment & IDE
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+

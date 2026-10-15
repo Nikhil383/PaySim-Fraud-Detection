@@ -1,0 +1,36 @@
+{
+  "num_rows": 6362620,
+  "num_columns": 11,
+  "columns": [
+    "step",
+    "type",
+    "amount",
+    "nameOrig",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "nameDest",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "isFraud",
+    "isFlaggedFraud"
+  ],
+  "missing_values": {
+    "step": 0,
+    "type": 0,
+    "amount": 0,
+    "nameOrig": 0,
+    "oldbalanceOrg": 0,
+    "newbalanceOrig": 0,
+    "nameDest": 0,
+    "oldbalanceDest": 0,
+    "newbalanceDest": 0,
+    "isFraud": 0,
+    "isFlaggedFraud": 0
+  },
+  "duplicate_rows": 0,
+  "negative_amounts": 0,
+  "is_fraud_distribution": {
+    "0": 6354407,
+    "1": 8213
+  }
+}
